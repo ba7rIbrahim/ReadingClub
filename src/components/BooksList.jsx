@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Loading from "./Loading";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function BooksList({ searchResult, loading }) {
   if (loading == true) return <Loading />;
